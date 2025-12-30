@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/sarthak86/abstergo-demo.git'
+                    url: 'https://github.com/sarthakt86/abstergo-demo.git'
             }
         }
 
